@@ -1,0 +1,86 @@
+ {
+      path: 'login', --page1
+      component: LoginComponent,
+  },
+  {
+    path: 'signup', --page3
+    component: SignupComponent,
+
+},
+{
+  path: 'userlanding', --page5
+  component: UserlandingComponent,
+
+},
+{
+  path: 'adminlanding',--page2
+  component: AdminlandingComponent,
+
+},
+{
+  path: 'logout', --page4
+  component: LogoutComponent,
+},
+{
+path:'importdata',--page7
+component:ImportdataComponent,
+},
+{
+  path: 'managecompany',--page8
+  component: ManagecompanyComponent,
+},
+{
+  path: 'manageexchange',--page9
+  component: ManageexchangeComponent,
+},
+{
+  path: 'summaryofupload',--page14
+  component: SummaryofuploadComponent,
+},
+{
+  path: 'addcompany',--page15
+  component: AddcompanyComponent,
+},
+{
+  path: 'editcompany',--page16
+  component: EditcompanyComponent,
+},
+{
+  path: 'addexchange',--page17
+  component: AddexchangeComponent,
+},
+{
+  path: 'updateipo',--page6
+  component: UpdateipoComponent,
+},
+{
+  path: 'addipo',--page19
+  component: AddipoComponent,
+},
+{
+  path: 'editipo',--pag20
+  component: EditipoComponent,
+},
+{
+  path: 'iposuser',--page11
+  component: IposuserComponent,
+},
+{
+  path: 'comparecompany',--page12
+  component: ComparecompanyComponent,
+},
+{
+  path: 'comparesector',--page13
+  component: ComparesectorComponent,
+},
+{
+  path: 'otheruser',--page10
+  component: OtheruserComponent,
+},
+},
+{
+  path: 'rendermap',--page21
+  component: RendermapComponent,
+}
+
+route like: '/signup'
